@@ -1,5 +1,3 @@
-print(ord('a'))
-print(ord('z'))
 
 
 user_first, user_second = input().split()
