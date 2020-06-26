@@ -1,3 +1,6 @@
+from memory_profiler import profile
+
+@profile
 def my_max(n):
     max_sum = 0
     for i in range(n):

@@ -1,3 +1,6 @@
+from memory_profiler import profile
+
+@profile
 def my_max(n):
     global max_sum
     global max_dig

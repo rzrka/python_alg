@@ -1,3 +1,7 @@
+from memory_profiler import profile
+
+@profile
+
 def meeting(n, n_search):
     count = 0
     order = ''

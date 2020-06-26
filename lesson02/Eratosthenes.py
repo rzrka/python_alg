@@ -1,7 +1,8 @@
 import sys
+from memory_profiler import profile
 
 sys.setrecursionlimit(100000000)
-
+@profile
 def Eratosthenes(start, end, n=1, k=0):
     global res
     if start == end + 1:

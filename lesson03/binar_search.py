@@ -1,3 +1,7 @@
+from memory_profiler import profile
+
+@profile
+
 def binar_seacrh(my_list):
     new_list = []
     n = int(input('Введите число: '))

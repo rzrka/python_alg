@@ -8,3 +8,4 @@ def my_func():
         print(res[j] + [sum(res[j])])
 
 my_func()
+

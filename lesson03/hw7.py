@@ -1,3 +1,7 @@
+from memory_profiler import profile
+
+@profile
+
 def my_func(my_list):
     print(f'Наименьший элемент: {min(my_list)}, встречается в этом массиве {my_list.count(min(my_list))} раз')
     for i in range(my_list.count(min(my_list))):
